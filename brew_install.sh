@@ -23,6 +23,8 @@ brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
 brew install bash
 brew install bash-completion2
+# Install GnuPG to enable PGP-signing commits.
+brew install gnupg
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
@@ -38,7 +40,7 @@ brew install wget --with-iri
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install neovim
 brew install grep
 brew install openssh
 brew install screen
