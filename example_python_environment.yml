@@ -1,0 +1,20 @@
+name: a_package
+channels:
+- conda-forge
+dependencies:
+- python
+- biopandas
+- black
+- flake8
+- isort
+- jupyter
+- jupyterlab
+- mypy
+- numpy
+- pandas
+- pydocstyle
+- pylint
+- pyprojroot
+- pytest
+- scikit-learn
+- scipy
