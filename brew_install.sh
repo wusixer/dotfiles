@@ -34,7 +34,7 @@ fi;
 
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+brew install wget 
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg

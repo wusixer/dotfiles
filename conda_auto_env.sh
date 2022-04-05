@@ -1,4 +1,5 @@
 #!/bin/zsh
+##### to use: source it from ~/.zshrc
 
 # Taken from https://janosh.dev/blog/conda-auto-env. All credit to the original author!
 
