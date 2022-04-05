@@ -4,7 +4,4 @@ $HOME/anaconda.sh -b -p $HOME/anaconda
 rm $HOME/anaconda.sh
 export PATH=$HOME/anaconda/bin:$PATH
 
-# Install basic data science stack into default environment
-conda install --yes pandas scipy numpy matplotlib seaborn jupyter ipykernel nodejs
 
-jupyter notebook --generate-config
